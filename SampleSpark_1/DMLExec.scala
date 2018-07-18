@@ -37,7 +37,7 @@ class ExecuteOp extends Serializable {
     
     
     
-    cookEmpData(spark)
+    cookUpData(spark)
   
     
     //Following settings overrides the configuration values given in the conf file
@@ -82,7 +82,7 @@ class ExecuteOp extends Serializable {
     
   }
   
-  def cookEmpData(spark:SparkSession):Unit = {
+  def cookUpData(spark:SparkSession):Unit = {
     
    
     //Cook up the table data
